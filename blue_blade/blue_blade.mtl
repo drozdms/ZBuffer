@@ -1,0 +1,43 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration 
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+newmtl metal
+	 Ka 0 0 0
+	 Kd 0.215686 0.266667 0.32549
+	 Ks 0.215686 0.266667 0.32549
+	 illum 2
+	 Ns 45.2548
+newmtl runes2
+	 Ka 0 0 0
+	 Kd 0.215686 0.266667 0.32549
+	 Ks 0.215686 0.266667 0.32549
+	 illum 2
+	 Ns 45.2548
+map_bump blue_b2.jpg
+bump blue_b2.jpg
+newmtl steel
+	 Ka 0 0 0
+	 Kd 0.686275 0.694118 0.694118
+	 Ks 0.514706 0.520588 0.520588
+	 illum 2
+	 Ns 22.6274
+newmtl runes1
+	 Ka 0 0 0
+	 Kd 0.0117647 0.0117647 0.0117647
+	 Ks 0.00294118 0.00294118 0.00294118
+	 illum 2
+	 Ns 22.6274
+map_Kd blue.jpg
+map_bump blue_b1.jpg
+bump blue_b1.jpg
+newmtl runes3
+	 Ka 0 0 0
+	 Kd 0.215686 0.266667 0.32549
+	 Ks 0.215686 0.266667 0.32549
+	 illum 2
+	 Ns 45.2548
+map_bump blue_b3.jpg
+bump blue_b3.jpg
