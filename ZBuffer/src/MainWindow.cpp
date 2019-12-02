@@ -9,9 +9,6 @@ MainWindow::MainWindow(std::vector<Model*> model, QWidget *parent) :
   m_ui(new Ui::MainWindow)
 {
   m_ui->setupUi(this);
-
-//  m_ui->gridLayout->addWidget(new QLabel("OpenGL"), 0, 0, Qt::AlignCenter);
-//  m_ui->gridLayout->addWidget(new GLWidget(model, this), 1, 0);
   for (int i = 0; i<3; ++i)
   {
       char cstr[10];

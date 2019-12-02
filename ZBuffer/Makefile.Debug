@@ -16,7 +16,7 @@ CXX           = cl
 DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_QML_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_XML_LIB -DQT_CORE_LIB
 CFLAGS        = -nologo -Zc:wchar_t -FS -Zc:strictStrings -Zi -MDd -W3 -w44456 -w44457 -w44458 /Fdbuild\zbuffer.vc.pdb $(DEFINES)
 CXXFLAGS      = -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zi -MDd -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -EHsc /Fdbuild\zbuffer.vc.pdb $(DEFINES)
-INCPATH       = -I. -Ilib -I..\QGLViewer -I.. -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtOpenGL -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtANGLE -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtXml -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore -Ibuild -Ibuild -I/include -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\mkspecs\win32-msvc 
+INCPATH       = -I. -Ilib -I../QGLViewer/ -I.. -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtOpenGL -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtANGLE -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtXml -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore -Ibuild -Ibuild -I/include -IC:\Qt\Qt5.13.2\5.13.2\msvc2017_64\mkspecs\win32-msvc 
 LINKER        = link
 LFLAGS        = /NOLOGO /DYNAMICBASE /NXCOMPAT /DEBUG /SUBSYSTEM:WINDOWS "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'"
 LIBS          = C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5OpenGLd.lib C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Guid.lib C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Xmld.lib C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\lib\Qt5Cored.lib  C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\lib\qtmaind.lib /LIBPATH:C:\openssl\lib /LIBPATH:C:\Utils\my_sql\mysql-5.7.25-winx64\lib /LIBPATH:C:\Utils\postgresql\pgsql\lib shell32.lib 
@@ -605,21 +605,8 @@ build\MainWindow.obj: src\MainWindow.cpp C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\inclu
 		lib\tiny_obj_loader.h \
 		lib\Logger.hpp \
 		build\ui_MainWindow.h \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore\QVariant \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets\QApplication \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets\qapplication.h \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore\qcoreapplication.h \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtCore\qeventloop.h \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets\qdesktopwidget.h \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui\qguiapplication.h \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui\qinputmethod.h \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets\QGridLayout \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets\qgridlayout.h \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets\qlayout.h \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets\qlayoutitem.h \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets\qboxlayout.h \
-		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets\QWidget \
 		src\ZBWidget.hpp \
+		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtWidgets\QWidget \
 		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui\QPaintEvent \
 		C:\Qt\Qt5.13.2\5.13.2\msvc2017_64\include\QtGui\QMouseEvent
 
